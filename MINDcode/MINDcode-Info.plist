@@ -14,15 +14,19 @@
 			<key>CFBundleTypeIconFile</key>
 			<string></string>
 			<key>CFBundleTypeName</key>
-			<string>DocumentType</string>
+			<string>Not eXactly C source file</string>
 			<key>CFBundleTypeOSTypes</key>
 			<array>
 				<string>????</string>
 			</array>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
+			<key>LSItemContentTypes</key>
+			<array>
+				<string>net.sourceforge.bricxcc.nxc</string>
+			</array>
 			<key>NSDocumentClass</key>
-			<string>Document</string>
+			<string>NXCSourceDocument</string>
 		</dict>
 	</array>
 	<key>CFBundleExecutable</key>
@@ -53,5 +57,27 @@
 	<string>MainMenu</string>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict>
+			<key>UTTypeConformsTo</key>
+			<array>
+				<string>public.utf8-plain-text</string>
+			</array>
+			<key>UTTypeDescription</key>
+			<string>Not eXactly C source file</string>
+			<key>UTTypeIdentifier</key>
+			<string>net.sourceforge.bricxcc.nxc</string>
+			<key>UTTypeReferenceURL</key>
+			<string>http://bricxcc.sourceforge.net</string>
+			<key>UTTypeTagSpecification</key>
+			<dict>
+				<key>public.filename-extension</key>
+				<array>
+					<string>nxc</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
 </dict>
 </plist>

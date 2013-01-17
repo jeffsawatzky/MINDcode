@@ -4,4 +4,9 @@
 
 #ifdef __OBJC__
     #import <Cocoa/Cocoa.h>
+    #import <IOBluetoothUI/IOBluetoothUI.h>
+    #import <ACEView/ACEView.h>
+    #import <NXTKit/NXTKit.h>
+
+    #define MIN_INT(a, b) (a) > (b) ? (b) : (a)
 #endif

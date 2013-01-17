@@ -1,0 +1,15 @@
+/* 
+  Localizable.strings
+  MINDcode
+
+  Created by Jeff Sawatzky on 2013-01-14.
+  Copyright (c) 2013 Jeff Sawatzky. All rights reserved.
+*/
+"UploadProgressWindowControllerMessageFormat" = "Uploading '%1@'...";
+"CompileProgressWindowControllerMessageFormat" = "Compiling...";
+"MainViewControllerCompiling" = "Compiling...\n";
+"MainViewControllerCompilingFailed" = "Compiling failed\n";
+"MainViewControllerUploading" = "Uploading...\n";
+"MainViewControllerUploadingFailed" = "Uploading failed\n";
+"MainViewControllerRunning" = "Running...\n";
+"MainViewControllerRunningFailed" = "Running failed\n";

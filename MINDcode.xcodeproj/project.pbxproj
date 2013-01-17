@@ -7,17 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F70B9DC16A782F7009DCA94 /* VISA.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F70B9D916A782BC009DCA94 /* VISA.framework */; };
+		1F70B9EB16A7C437009DCA94 /* CompileProgressWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F70B9EA16A7C437009DCA94 /* CompileProgressWindowController.m */; };
 		1FE49C1916A3CD060016E8F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE49C1816A3CD060016E8F6 /* Cocoa.framework */; };
 		1FE49C2316A3CD060016E8F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FE49C2116A3CD060016E8F6 /* InfoPlist.strings */; };
 		1FE49C2516A3CD060016E8F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE49C2416A3CD060016E8F6 /* main.m */; };
 		1FE49C2916A3CD060016E8F6 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1FE49C2716A3CD060016E8F6 /* Credits.rtf */; };
-		1FE49C2C16A3CD060016E8F6 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE49C2B16A3CD060016E8F6 /* Document.m */; };
-		1FE49C2F16A3CD060016E8F6 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE49C2D16A3CD060016E8F6 /* Document.xib */; };
+		1FE49C2C16A3CD060016E8F6 /* NXCSourceDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE49C2B16A3CD060016E8F6 /* NXCSourceDocument.m */; };
 		1FE49C3216A3CD060016E8F6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE49C3016A3CD060016E8F6 /* MainMenu.xib */; };
 		1FE49C3A16A3CD060016E8F6 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE49C3916A3CD060016E8F6 /* SenTestingKit.framework */; };
 		1FE49C3B16A3CD060016E8F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE49C1816A3CD060016E8F6 /* Cocoa.framework */; };
 		1FE49C4316A3CD060016E8F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FE49C4116A3CD060016E8F6 /* InfoPlist.strings */; };
 		1FE49C4616A3CD060016E8F6 /* MINDcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE49C4516A3CD060016E8F6 /* MINDcodeTests.m */; };
+		1FE49C5516A3CF260016E8F6 /* ACEView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE49C5416A3CF260016E8F6 /* ACEView.framework */; };
+		1FE49C5716A3CFCB0016E8F6 /* ACEView.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FE49C5416A3CF260016E8F6 /* ACEView.framework */; };
+		1FE49C5B16A3D0F90016E8F6 /* ACEViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE49C5916A3D0F90016E8F6 /* ACEViewController.m */; };
+		1FE49C5D16A3D1030016E8F6 /* ACEViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE49C5F16A3D1030016E8F6 /* ACEViewController.xib */; };
+		1FE49C6316A3D2E10016E8F6 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE49C6116A3D2E10016E8F6 /* MainViewController.m */; };
+		1FE49C6C16A3D9E90016E8F6 /* MainWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE49C6A16A3D9E90016E8F6 /* MainWindowController.m */; };
+		1FE49C6E16A3D9FB0016E8F6 /* MainWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE49C7016A3D9FB0016E8F6 /* MainWindowController.xib */; };
+		1FE49C7C16A489960016E8F6 /* SourceDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE49C7A16A489960016E8F6 /* SourceDocument.m */; };
+		1FE49CB916A499FE0016E8F6 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE49CBB16A499FE0016E8F6 /* MainViewController.xib */; };
+		1FE49CCB16A49AA40016E8F6 /* nbc in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FE49CC216A49A8B0016E8F6 /* nbc */; };
+		1FE49CCF16A4B1740016E8F6 /* SourceCompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE49CCE16A4B1740016E8F6 /* SourceCompiler.m */; };
+		1FE49CD216A4B2930016E8F6 /* NXCSourceCompiler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE49CD116A4B2930016E8F6 /* NXCSourceCompiler.m */; };
+		1FE49CD816A4CACC0016E8F6 /* NXTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE49CD716A4CACC0016E8F6 /* NXTKit.framework */; };
+		1FE49CD916A4CAD40016E8F6 /* NXTKit.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FE49CD716A4CACC0016E8F6 /* NXTKit.framework */; };
+		1FE49CE416A4CB920016E8F6 /* IOBluetoothUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE49CE316A4CB920016E8F6 /* IOBluetoothUI.framework */; };
+		1FE49CE716A4CE170016E8F6 /* NXTDeviceManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE49CE616A4CE170016E8F6 /* NXTDeviceManager.m */; };
+		1FE49CFB16A4EC730016E8F6 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1FE49CFD16A4EC730016E8F6 /* Localizable.strings */; };
+		1FE49D0116A4EEA90016E8F6 /* ProgressWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE49CFF16A4EEA90016E8F6 /* ProgressWindowController.m */; };
+		1FE49D0816A507140016E8F6 /* UploadProgressWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FE49D0716A507140016E8F6 /* UploadProgressWindowController.m */; };
+		1FE49D1E16A60AF60016E8F6 /* Fantom.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1FE49D1C16A60AA00016E8F6 /* Fantom.framework */; };
+		1FE49D1F16A60B2F0016E8F6 /* ProgressWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1FE49D2116A60B2F0016E8F6 /* ProgressWindowController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,20 +52,48 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		1FE49C5616A3CFA30016E8F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				1FE49C5716A3CFCB0016E8F6 /* ACEView.framework in CopyFiles */,
+				1F70B9DC16A782F7009DCA94 /* VISA.framework in CopyFiles */,
+				1FE49CD916A4CAD40016E8F6 /* NXTKit.framework in CopyFiles */,
+				1FE49D1E16A60AF60016E8F6 /* Fantom.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FE49CB416A496850016E8F6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				1FE49CCB16A49AA40016E8F6 /* nbc in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		1F5DF06C16A75EEE00377621 /* ProgressWindowController+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ProgressWindowController+Protected.h"; sourceTree = "<group>"; };
+		1F70B9D916A782BC009DCA94 /* VISA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VISA.framework; sourceTree = "<group>"; };
+		1F70B9E916A7C437009DCA94 /* CompileProgressWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompileProgressWindowController.h; sourceTree = "<group>"; };
+		1F70B9EA16A7C437009DCA94 /* CompileProgressWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompileProgressWindowController.m; sourceTree = "<group>"; };
 		1FE49C1416A3CD060016E8F6 /* MINDcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MINDcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE49C1816A3CD060016E8F6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1FE49C1B16A3CD060016E8F6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		1FE49C1C16A3CD060016E8F6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1FE49C1D16A3CD060016E8F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1FE49C2016A3CD060016E8F6 /* MINDcode-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MINDcode-Info.plist"; sourceTree = "<group>"; };
 		1FE49C2216A3CD060016E8F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FE49C2416A3CD060016E8F6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FE49C2616A3CD060016E8F6 /* MINDcode-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MINDcode-Prefix.pch"; sourceTree = "<group>"; };
 		1FE49C2816A3CD060016E8F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		1FE49C2A16A3CD060016E8F6 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
-		1FE49C2B16A3CD060016E8F6 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
-		1FE49C2E16A3CD060016E8F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Document.xib; sourceTree = "<group>"; };
+		1FE49C2A16A3CD060016E8F6 /* NXCSourceDocument.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXCSourceDocument.h; sourceTree = "<group>"; };
+		1FE49C2B16A3CD060016E8F6 /* NXCSourceDocument.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NXCSourceDocument.m; sourceTree = "<group>"; };
 		1FE49C3116A3CD060016E8F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		1FE49C3816A3CD060016E8F6 /* MINDcodeTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MINDcodeTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE49C3916A3CD060016E8F6 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -51,6 +101,45 @@
 		1FE49C4216A3CD060016E8F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1FE49C4416A3CD060016E8F6 /* MINDcodeTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MINDcodeTests.h; sourceTree = "<group>"; };
 		1FE49C4516A3CD060016E8F6 /* MINDcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MINDcodeTests.m; sourceTree = "<group>"; };
+		1FE49C5416A3CF260016E8F6 /* ACEView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ACEView.framework; sourceTree = "<group>"; };
+		1FE49C5816A3D0F90016E8F6 /* ACEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ACEViewController.h; sourceTree = "<group>"; };
+		1FE49C5916A3D0F90016E8F6 /* ACEViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ACEViewController.m; sourceTree = "<group>"; };
+		1FE49C5E16A3D1030016E8F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ACEViewController.xib; sourceTree = "<group>"; };
+		1FE49C6016A3D2E10016E8F6 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		1FE49C6116A3D2E10016E8F6 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1FE49C6916A3D9E90016E8F6 /* MainWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainWindowController.h; sourceTree = "<group>"; };
+		1FE49C6A16A3D9E90016E8F6 /* MainWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainWindowController.m; sourceTree = "<group>"; };
+		1FE49C6F16A3D9FB0016E8F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindowController.xib; sourceTree = "<group>"; };
+		1FE49C7916A489960016E8F6 /* SourceDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceDocument.h; sourceTree = "<group>"; };
+		1FE49C7A16A489960016E8F6 /* SourceDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceDocument.m; sourceTree = "<group>"; };
+		1FE49CBA16A499FE0016E8F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainViewController.xib; sourceTree = "<group>"; };
+		1FE49CBE16A49A8B0016E8F6 /* Changelog */ = {isa = PBXFileReference; lastKnownFileType = text; path = Changelog; sourceTree = "<group>"; };
+		1FE49CBF16A49A8B0016E8F6 /* nbc.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = nbc.1; sourceTree = "<group>"; };
+		1FE49CC016A49A8B0016E8F6 /* Readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		1FE49CC216A49A8B0016E8F6 /* nbc */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = nbc; sourceTree = "<group>"; };
+		1FE49CC416A49A8B0016E8F6 /* NBC Compile And Download via USB.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = "NBC Compile And Download via USB.app"; sourceTree = "<group>"; };
+		1FE49CC516A49A8B0016E8F6 /* NBCCompile.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = NBCCompile.app; sourceTree = "<group>"; };
+		1FE49CC616A49A8B0016E8F6 /* NXT Download via USB.app */ = {isa = PBXFileReference; lastKnownFileType = wrapper.application; path = "NXT Download via USB.app"; sourceTree = "<group>"; };
+		1FE49CC716A49A8B0016E8F6 /* nxtcom */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = nxtcom; sourceTree = "<group>"; };
+		1FE49CC816A49A8B0016E8F6 /* readme_nxtcom.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = readme_nxtcom.txt; sourceTree = "<group>"; };
+		1FE49CCA16A49A8B0016E8F6 /* struct.nxc */ = {isa = PBXFileReference; lastKnownFileType = text; path = struct.nxc; sourceTree = "<group>"; };
+		1FE49CCD16A4B1740016E8F6 /* SourceCompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SourceCompiler.h; sourceTree = "<group>"; };
+		1FE49CCE16A4B1740016E8F6 /* SourceCompiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SourceCompiler.m; sourceTree = "<group>"; };
+		1FE49CD016A4B2930016E8F6 /* NXCSourceCompiler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXCSourceCompiler.h; sourceTree = "<group>"; };
+		1FE49CD116A4B2930016E8F6 /* NXCSourceCompiler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXCSourceCompiler.m; sourceTree = "<group>"; };
+		1FE49CD716A4CACC0016E8F6 /* NXTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NXTKit.framework; sourceTree = "<group>"; };
+		1FE49CE316A4CB920016E8F6 /* IOBluetoothUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetoothUI.framework; path = System/Library/Frameworks/IOBluetoothUI.framework; sourceTree = SDKROOT; };
+		1FE49CE516A4CE170016E8F6 /* NXTDeviceManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NXTDeviceManager.h; sourceTree = "<group>"; };
+		1FE49CE616A4CE170016E8F6 /* NXTDeviceManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NXTDeviceManager.m; sourceTree = "<group>"; };
+		1FE49CFC16A4EC730016E8F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1FE49CFE16A4EEA90016E8F6 /* ProgressWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressWindowController.h; sourceTree = "<group>"; };
+		1FE49CFF16A4EEA90016E8F6 /* ProgressWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressWindowController.m; sourceTree = "<group>"; };
+		1FE49D0616A507140016E8F6 /* UploadProgressWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadProgressWindowController.h; sourceTree = "<group>"; };
+		1FE49D0716A507140016E8F6 /* UploadProgressWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadProgressWindowController.m; sourceTree = "<group>"; };
+		1FE49D1A16A5FF640016E8F6 /* NXT.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NXT.h; sourceTree = "<group>"; };
+		1FE49D1C16A60AA00016E8F6 /* Fantom.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fantom.framework; sourceTree = "<group>"; };
+		1FE49D2016A60B2F0016E8F6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ProgressWindowController.xib; sourceTree = "<group>"; };
+		1FF20AB516A738450012F460 /* SourceCompiler+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SourceCompiler+Protected.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +147,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE49CE416A4CB920016E8F6 /* IOBluetoothUI.framework in Frameworks */,
 				1FE49C1916A3CD060016E8F6 /* Cocoa.framework in Frameworks */,
+				1FE49C5516A3CF260016E8F6 /* ACEView.framework in Frameworks */,
+				1FE49CD816A4CACC0016E8F6 /* NXTKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,12 +166,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F70B9DB16A782CD009DCA94 /* LegoMindstorms */ = {
+			isa = PBXGroup;
+			children = (
+				1F70B9D916A782BC009DCA94 /* VISA.framework */,
+				1FE49D1C16A60AA00016E8F6 /* Fantom.framework */,
+			);
+			name = LegoMindstorms;
+			sourceTree = "<group>";
+		};
 		1FE49C0916A3CD060016E8F6 = {
 			isa = PBXGroup;
 			children = (
 				1FE49C1E16A3CD060016E8F6 /* MINDcode */,
 				1FE49C3E16A3CD060016E8F6 /* MINDcodeTests */,
 				1FE49C1716A3CD060016E8F6 /* Frameworks */,
+				1FE49CB816A498490016E8F6 /* bin */,
 				1FE49C1516A3CD060016E8F6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +198,10 @@
 		1FE49C1716A3CD060016E8F6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1F70B9DB16A782CD009DCA94 /* LegoMindstorms */,
+				1FE49CE316A4CB920016E8F6 /* IOBluetoothUI.framework */,
+				1FE49CD716A4CACC0016E8F6 /* NXTKit.framework */,
+				1FE49C5416A3CF260016E8F6 /* ACEView.framework */,
 				1FE49C1816A3CD060016E8F6 /* Cocoa.framework */,
 				1FE49C3916A3CD060016E8F6 /* SenTestingKit.framework */,
 				1FE49C1A16A3CD060016E8F6 /* Other Frameworks */,
@@ -107,7 +213,6 @@
 			isa = PBXGroup;
 			children = (
 				1FE49C1B16A3CD060016E8F6 /* AppKit.framework */,
-				1FE49C1C16A3CD060016E8F6 /* CoreData.framework */,
 				1FE49C1D16A3CD060016E8F6 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
@@ -116,10 +221,25 @@
 		1FE49C1E16A3CD060016E8F6 /* MINDcode */ = {
 			isa = PBXGroup;
 			children = (
-				1FE49C2A16A3CD060016E8F6 /* Document.h */,
-				1FE49C2B16A3CD060016E8F6 /* Document.m */,
-				1FE49C2D16A3CD060016E8F6 /* Document.xib */,
-				1FE49C3016A3CD060016E8F6 /* MainMenu.xib */,
+				1FE49CCC16A4B1550016E8F6 /* Compilers */,
+				1FE49C8016A48CA40016E8F6 /* UI */,
+				1FE49C7F16A48C640016E8F6 /* Documents */,
+				1FE49D1A16A5FF640016E8F6 /* NXT.h */,
+				1FE49CE516A4CE170016E8F6 /* NXTDeviceManager.h */,
+				1FE49CE616A4CE170016E8F6 /* NXTDeviceManager.m */,
+				1FE49C6916A3D9E90016E8F6 /* MainWindowController.h */,
+				1FE49C6A16A3D9E90016E8F6 /* MainWindowController.m */,
+				1FE49C6016A3D2E10016E8F6 /* MainViewController.h */,
+				1FE49C6116A3D2E10016E8F6 /* MainViewController.m */,
+				1FE49C5816A3D0F90016E8F6 /* ACEViewController.h */,
+				1FE49C5916A3D0F90016E8F6 /* ACEViewController.m */,
+				1FE49CFE16A4EEA90016E8F6 /* ProgressWindowController.h */,
+				1FE49CFF16A4EEA90016E8F6 /* ProgressWindowController.m */,
+				1F5DF06C16A75EEE00377621 /* ProgressWindowController+Protected.h */,
+				1FE49D0616A507140016E8F6 /* UploadProgressWindowController.h */,
+				1FE49D0716A507140016E8F6 /* UploadProgressWindowController.m */,
+				1F70B9E916A7C437009DCA94 /* CompileProgressWindowController.h */,
+				1F70B9EA16A7C437009DCA94 /* CompileProgressWindowController.m */,
 				1FE49C1F16A3CD060016E8F6 /* Supporting Files */,
 			);
 			path = MINDcode;
@@ -133,6 +253,7 @@
 				1FE49C2416A3CD060016E8F6 /* main.m */,
 				1FE49C2616A3CD060016E8F6 /* MINDcode-Prefix.pch */,
 				1FE49C2716A3CD060016E8F6 /* Credits.rtf */,
+				1FE49CFD16A4EC730016E8F6 /* Localizable.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -156,6 +277,100 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		1FE49C7F16A48C640016E8F6 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				1FE49C7916A489960016E8F6 /* SourceDocument.h */,
+				1FE49C7A16A489960016E8F6 /* SourceDocument.m */,
+				1FE49C2A16A3CD060016E8F6 /* NXCSourceDocument.h */,
+				1FE49C2B16A3CD060016E8F6 /* NXCSourceDocument.m */,
+			);
+			name = Documents;
+			sourceTree = "<group>";
+		};
+		1FE49C8016A48CA40016E8F6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1FE49C3016A3CD060016E8F6 /* MainMenu.xib */,
+				1FE49C7016A3D9FB0016E8F6 /* MainWindowController.xib */,
+				1FE49CBB16A499FE0016E8F6 /* MainViewController.xib */,
+				1FE49C5F16A3D1030016E8F6 /* ACEViewController.xib */,
+				1FE49D2116A60B2F0016E8F6 /* ProgressWindowController.xib */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		1FE49CB816A498490016E8F6 /* bin */ = {
+			isa = PBXGroup;
+			children = (
+				1FE49CBC16A49A8B0016E8F6 /* nbc-1.2.1.r4.osx */,
+			);
+			name = bin;
+			path = MINDcode;
+			sourceTree = "<group>";
+		};
+		1FE49CBC16A49A8B0016E8F6 /* nbc-1.2.1.r4.osx */ = {
+			isa = PBXGroup;
+			children = (
+				1FE49CBD16A49A8B0016E8F6 /* doc */,
+				1FE49CC116A49A8B0016E8F6 /* NXT */,
+				1FE49CC916A49A8B0016E8F6 /* tests */,
+			);
+			name = "nbc-1.2.1.r4.osx";
+			path = "bin/nbc-1.2.1.r4.osx";
+			sourceTree = SOURCE_ROOT;
+		};
+		1FE49CBD16A49A8B0016E8F6 /* doc */ = {
+			isa = PBXGroup;
+			children = (
+				1FE49CBE16A49A8B0016E8F6 /* Changelog */,
+				1FE49CBF16A49A8B0016E8F6 /* nbc.1 */,
+				1FE49CC016A49A8B0016E8F6 /* Readme */,
+			);
+			path = doc;
+			sourceTree = "<group>";
+		};
+		1FE49CC116A49A8B0016E8F6 /* NXT */ = {
+			isa = PBXGroup;
+			children = (
+				1FE49CC216A49A8B0016E8F6 /* nbc */,
+				1FE49CC316A49A8B0016E8F6 /* nxtcom_scripts */,
+			);
+			path = NXT;
+			sourceTree = "<group>";
+		};
+		1FE49CC316A49A8B0016E8F6 /* nxtcom_scripts */ = {
+			isa = PBXGroup;
+			children = (
+				1FE49CC416A49A8B0016E8F6 /* NBC Compile And Download via USB.app */,
+				1FE49CC516A49A8B0016E8F6 /* NBCCompile.app */,
+				1FE49CC616A49A8B0016E8F6 /* NXT Download via USB.app */,
+				1FE49CC716A49A8B0016E8F6 /* nxtcom */,
+				1FE49CC816A49A8B0016E8F6 /* readme_nxtcom.txt */,
+			);
+			path = nxtcom_scripts;
+			sourceTree = "<group>";
+		};
+		1FE49CC916A49A8B0016E8F6 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				1FE49CCA16A49A8B0016E8F6 /* struct.nxc */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
+		1FE49CCC16A4B1550016E8F6 /* Compilers */ = {
+			isa = PBXGroup;
+			children = (
+				1FE49CCD16A4B1740016E8F6 /* SourceCompiler.h */,
+				1FE49CCE16A4B1740016E8F6 /* SourceCompiler.m */,
+				1FF20AB516A738450012F460 /* SourceCompiler+Protected.h */,
+				1FE49CD016A4B2930016E8F6 /* NXCSourceCompiler.h */,
+				1FE49CD116A4B2930016E8F6 /* NXCSourceCompiler.m */,
+			);
+			name = Compilers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -166,6 +381,8 @@
 				1FE49C1016A3CD060016E8F6 /* Sources */,
 				1FE49C1116A3CD060016E8F6 /* Frameworks */,
 				1FE49C1216A3CD060016E8F6 /* Resources */,
+				1FE49C5616A3CFA30016E8F6 /* CopyFiles */,
+				1FE49CB416A496850016E8F6 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -229,8 +446,12 @@
 			files = (
 				1FE49C2316A3CD060016E8F6 /* InfoPlist.strings in Resources */,
 				1FE49C2916A3CD060016E8F6 /* Credits.rtf in Resources */,
-				1FE49C2F16A3CD060016E8F6 /* Document.xib in Resources */,
 				1FE49C3216A3CD060016E8F6 /* MainMenu.xib in Resources */,
+				1FE49C5D16A3D1030016E8F6 /* ACEViewController.xib in Resources */,
+				1FE49CB916A499FE0016E8F6 /* MainViewController.xib in Resources */,
+				1FE49C6E16A3D9FB0016E8F6 /* MainWindowController.xib in Resources */,
+				1FE49CFB16A4EC730016E8F6 /* Localizable.strings in Resources */,
+				1FE49D1F16A60B2F0016E8F6 /* ProgressWindowController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +487,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				1FE49C2516A3CD060016E8F6 /* main.m in Sources */,
-				1FE49C2C16A3CD060016E8F6 /* Document.m in Sources */,
+				1FE49C2C16A3CD060016E8F6 /* NXCSourceDocument.m in Sources */,
+				1FE49C5B16A3D0F90016E8F6 /* ACEViewController.m in Sources */,
+				1FE49C6316A3D2E10016E8F6 /* MainViewController.m in Sources */,
+				1FE49C6C16A3D9E90016E8F6 /* MainWindowController.m in Sources */,
+				1FE49C7C16A489960016E8F6 /* SourceDocument.m in Sources */,
+				1FE49CCF16A4B1740016E8F6 /* SourceCompiler.m in Sources */,
+				1FE49CD216A4B2930016E8F6 /* NXCSourceCompiler.m in Sources */,
+				1FE49CE716A4CE170016E8F6 /* NXTDeviceManager.m in Sources */,
+				1FE49D0116A4EEA90016E8F6 /* ProgressWindowController.m in Sources */,
+				1FE49D0816A507140016E8F6 /* UploadProgressWindowController.m in Sources */,
+				1F70B9EB16A7C437009DCA94 /* CompileProgressWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +536,6 @@
 			name = Credits.rtf;
 			sourceTree = "<group>";
 		};
-		1FE49C2D16A3CD060016E8F6 /* Document.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1FE49C2E16A3CD060016E8F6 /* en */,
-			);
-			name = Document.xib;
-			sourceTree = "<group>";
-		};
 		1FE49C3016A3CD060016E8F6 /* MainMenu.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -327,6 +550,46 @@
 				1FE49C4216A3CD060016E8F6 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1FE49C5F16A3D1030016E8F6 /* ACEViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FE49C5E16A3D1030016E8F6 /* en */,
+			);
+			name = ACEViewController.xib;
+			sourceTree = "<group>";
+		};
+		1FE49C7016A3D9FB0016E8F6 /* MainWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FE49C6F16A3D9FB0016E8F6 /* en */,
+			);
+			name = MainWindowController.xib;
+			sourceTree = "<group>";
+		};
+		1FE49CBB16A499FE0016E8F6 /* MainViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FE49CBA16A499FE0016E8F6 /* en */,
+			);
+			name = MainViewController.xib;
+			sourceTree = "<group>";
+		};
+		1FE49CFD16A4EC730016E8F6 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FE49CFC16A4EC730016E8F6 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		1FE49D2116A60B2F0016E8F6 /* ProgressWindowController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FE49D2016A60B2F0016E8F6 /* en */,
+			);
+			name = ProgressWindowController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -356,7 +619,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -380,7 +643,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -389,6 +652,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MINDcode/MINDcode-Prefix.pch";
 				INFOPLIST_FILE = "MINDcode/MINDcode-Info.plist";
@@ -401,6 +668,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MINDcode/MINDcode-Prefix.pch";
 				INFOPLIST_FILE = "MINDcode/MINDcode-Info.plist";
@@ -458,6 +729,7 @@
 				1FE49C4B16A3CD060016E8F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FE49C4C16A3CD060016E8F6 /* Build configuration list for PBXNativeTarget "MINDcodeTests" */ = {
 			isa = XCConfigurationList;
@@ -466,6 +738,7 @@
 				1FE49C4E16A3CD060016E8F6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
