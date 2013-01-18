@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F612D0716A91D680017C5E0 /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 1F612D0616A91D680017C5E0 /* icon.iconset */; };
 		1F70B9DC16A782F7009DCA94 /* VISA.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1F70B9D916A782BC009DCA94 /* VISA.framework */; };
 		1F70B9EB16A7C437009DCA94 /* CompileProgressWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F70B9EA16A7C437009DCA94 /* CompileProgressWindowController.m */; };
 		1FE49C1916A3CD060016E8F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FE49C1816A3CD060016E8F6 /* Cocoa.framework */; };
@@ -80,6 +81,7 @@
 
 /* Begin PBXFileReference section */
 		1F5DF06C16A75EEE00377621 /* ProgressWindowController+Protected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ProgressWindowController+Protected.h"; sourceTree = "<group>"; };
+		1F612D0616A91D680017C5E0 /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icon.iconset; sourceTree = "<group>"; };
 		1F70B9D916A782BC009DCA94 /* VISA.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VISA.framework; sourceTree = "<group>"; };
 		1F70B9E916A7C437009DCA94 /* CompileProgressWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompileProgressWindowController.h; sourceTree = "<group>"; };
 		1F70B9EA16A7C437009DCA94 /* CompileProgressWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompileProgressWindowController.m; sourceTree = "<group>"; };
@@ -178,6 +180,7 @@
 		1FE49C0916A3CD060016E8F6 = {
 			isa = PBXGroup;
 			children = (
+				1F612D0616A91D680017C5E0 /* icon.iconset */,
 				1FE49C1E16A3CD060016E8F6 /* MINDcode */,
 				1FE49C3E16A3CD060016E8F6 /* MINDcodeTests */,
 				1FE49C1716A3CD060016E8F6 /* Frameworks */,
@@ -452,6 +455,7 @@
 				1FE49C6E16A3D9FB0016E8F6 /* MainWindowController.xib in Resources */,
 				1FE49CFB16A4EC730016E8F6 /* Localizable.strings in Resources */,
 				1FE49D1F16A60B2F0016E8F6 /* ProgressWindowController.xib in Resources */,
+				1F612D0716A91D680017C5E0 /* icon.iconset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
