@@ -12,7 +12,7 @@
 				<string>nxc</string>
 			</array>
 			<key>CFBundleTypeIconFile</key>
-			<string></string>
+			<string>icon</string>
 			<key>CFBundleTypeName</key>
 			<string>Not eXactly C source file</string>
 			<key>CFBundleTypeOSTypes</key>
